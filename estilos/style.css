@@ -1,0 +1,185 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-body: #000000;
+    --color-text: #fafafa;
+    --color-secondary: #999;
+    --color-border: #777777;
+    --color-text-field: #777777;
+    --font-stack-body: "Courier New";
+    --font-size-base: 13;
+    --font-weight-body: 700;
+}
+
+.background-clouds {
+    display: flex;
+    justify-content: center;
+
+}
+
+.background-clouds {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/html/recursos/main/background-with-pagodas-whites-white-paint-style-170609855.png);
+    position: fixed;
+}
+
+.contenedor-logo {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    position: absolute;
+}
+
+.contenido {
+    display: -moz-grid;
+    columns: 1;
+    row-gap: 24px;
+    justify-items: center;
+    max-width: 250px;
+    padding-top: 500px;
+}
+
+.logo {
+    width: 300px;
+    justify-content: center;
+}
+
+.link-title {
+    color: white;
+}
+
+.nav {
+    width: 200px;
+    padding-inline: 23px;
+    padding-top: 15px;
+    min-width: auto;
+    text-align: center;
+}
+
+.nav {
+    border-color: var(--color-secondary);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.nav {
+    background-color: #0b0b0bbd;
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.2;
+    padding-inline: 15px;
+    margin-block: 10px;
+    text-align: left;
+    
+}
+
+a {
+    font-weight: var(--font-weight-body);
+}
+
+a {
+    color: var(--color-text);
+    margin: 0;
+    font-size: calc(var(--font-size-base) * 1px);
+    font-family: var(--font-stack-body);
+    text-decoration: none;
+    touch-action: manipulation;
+}
+
+.link-title {
+    cursor: pointer;
+}
+
+.link-title:hover  {
+    background-color: white;
+    color: black;
+}
+
+.icon-list {
+    margin-top: 6px;
+    display: inline-flex;
+}
+
+.item {
+    width: 18px;
+    color: var(--color-secondary);
+    margin-right: auto;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.item:hover i {
+    color: white;
+}
+
+
+
+@media (max-height: 760px) {
+    .contenedor-logo {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: absolute;
+    }
+    .contenido {
+        display: -moz-grid;
+        columns: 1;
+        row-gap: 24px;
+        justify-items: center;
+        max-width: 250px;
+        padding-top: 400px;
+    }
+}
+
+@media (max-height: 660px) {
+    .contenido {
+        display: -moz-grid;
+        columns: 1;
+        row-gap: 24px;
+        justify-items: center;
+        max-width: 250px;
+        padding-top: 330px;
+    }
+}
+
+@media (max-height: 590px) {
+    .logo {
+        width: 200px;
+        justify-content: center;
+    }
+    .contenido {
+        display: -moz-grid;
+        columns: 1;
+        row-gap: 24px;
+        justify-items: center;
+        max-width: 250px;
+        padding-top: 230px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
