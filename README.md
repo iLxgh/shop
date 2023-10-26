@@ -1,2 +1,0 @@
-# Shop
-minimalist store design
